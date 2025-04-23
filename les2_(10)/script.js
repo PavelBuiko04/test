@@ -107,7 +107,7 @@ console.log(isChecked && isClode);
 
 // git status 
 // git add -A 
-// git status 
+// git status `
 
 // git commit -a -m"first commit"
 // git push 
