@@ -45,9 +45,9 @@ const obj = {
 
 const answers = [];
 
-answers[0] = prompt('What is your name?', '')
-answers[1] = prompt('What is your surname?', '')
-answers[2] = prompt('What is your age?', '')
+// answers[0] = prompt('What is your name?', '')
+// answers[1] = prompt('What is your surname?', '')
+// answers[2] = prompt('What is your age?', '')
 
 document.write(answers);
 
@@ -110,7 +110,7 @@ console.log(isChecked && isClode);
 // git status `
 
 // git commit -a -m"first commit"
-// git push 
+// git push  
 
 // https://githowto.com/
 
@@ -123,3 +123,23 @@ console.log(isChecked && isClode);
 // 17 
 
 
+
+// 18 Practise
+const numberOfFilms = prompt('How much films do you watched? ', "");
+const personalMovieDB = {
+    count: numberOfFilms,
+    movie: {
+
+    },
+    actors: {
+
+    },
+    gender: [],
+    privat: false
+};
+
+const lastWatchedFilm = prompt('What was the last watched film? ', ''),
+    rate = prompt('You rate? (1-10) ', '');
+
+personalMovieDB.movie[lastWatchedFilm] = rate;
+console.log(personalMovieDB);
