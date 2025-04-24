@@ -143,3 +143,5 @@ const lastWatchedFilm = prompt('What was the last watched film? ', ''),
 
 personalMovieDB.movie[lastWatchedFilm] = rate;
 console.log(personalMovieDB);
+
+
